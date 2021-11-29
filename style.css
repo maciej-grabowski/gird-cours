@@ -31,13 +31,17 @@ nav a:hover{
     background: #555;
 }
 #content{
-
+    padding: 30px;
     text-align: center;
     display: grid;
-    grid-template-columns: 30% 30% 40%;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows: 200px 300px 400px;
+    grid-gap: 10px;
+
 }
 #content div{
     background-color: #555;
+    padding: 30px;
 }
 #content div:nth-child(even){
     background-color: #333;
